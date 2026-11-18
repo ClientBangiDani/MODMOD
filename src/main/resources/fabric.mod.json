@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "aetherflux_combo_aura",
+  "version": "${version}",
+  "name": "AETHERFLUX Combo Aura",
+  "description": "Wizualny modul kombinacji trafien. Nie atakuje automatycznie - tylko wyswietla efekty.",
+  "authors": ["AETHERFLUX"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.aetherflux.combo.AetherfluxComboAura"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
